@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="background" fitHeight="420.0" fitWidth="620.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="start_btn" fitHeight="71.0" fitWidth="68.0" layoutX="388.0" layoutY="161.0" onMouseClicked="#start" pickOnBounds="true" preserveRatio="true" visible="true">
+         <image>
+            <Image url="@../resources/start.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="film_img0" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/0.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img1" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/1.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img2" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/2.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img3" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/3.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img4" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/4.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img5" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/5.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img6" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/6.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img7" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/7.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img8" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/8.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img9" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/9.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img10" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/10.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img11" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/11.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img12" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/12.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img13" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/13.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img14" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/14.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img15" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/15.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img16" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/16.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img17" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/17.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img18" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/18.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="film_img19" fitHeight="293.0" fitWidth="431.0" layoutX="96.0" layoutY="64.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../resources/films/19.jpg" />
+         </image>
+         <effect>
+            <DropShadow height="255.0" radius="120.525" spread="0.49" width="229.1" />
+         </effect>
+      </ImageView>
+
+      
+      <Text fx:id="film_name" fill="#7464ee" layoutX="150.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Three idiots" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Century Gothic Bold" size="30.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <ImageView fx:id="no_btn" fitHeight="82.0" fitWidth="68.0" layoutX="132.0" layoutY="345.0" onMouseClicked="#no" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/no.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="yes_btn" fitHeight="82.0" fitWidth="68.0" layoutX="422.0" layoutY="345.0" onMouseClicked="#yes" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../resources/yes.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="scoretext" fill="WHITE" layoutX="493.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score :" visible="false" wrappingWidth="56.000003322958946">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="score" fill="WHITE" layoutX="556.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" visible="false">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="timetext" fill="WHITE" layoutX="38.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIME :" visible="false" wrappingWidth="45.21484375">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="timer" fill="WHITE" layoutX="92.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" visible="false">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+
+   </children>
+</AnchorPane>

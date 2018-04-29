@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="200.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FinishedController">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="430.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/finished.jpg" />
+         </image></ImageView>
+      <Button fx:id="restrat_btn" layoutX="37.0" layoutY="128.0" mnemonicParsing="false" onAction="#restart" prefHeight="50.0" prefWidth="144.0" style="-fx-background-color: #ffffff;" text="RESTART" textFill="#bf2424">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+         <effect>
+            <DropShadow height="44.45" radius="22.457500000000003" width="47.38" />
+         </effect>
+      </Button>
+       <Button fx:id="exit_btn" layoutX="250.0" layoutY="128.0" mnemonicParsing="false" onAction="#exit" prefHeight="50.0" prefWidth="144.0" style="-fx-background-color: #ffffff;" text="EXIT" textFill="#bf2424">
+           <font>
+               <Font name="Berlin Sans FB" size="23.0" />
+           </font>
+           <effect>
+               <DropShadow height="44.45" radius="22.457500000000003" width="47.38" />
+           </effect>
+       </Button>
+       <Text fill="#802828" layoutX="322.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Score" wrappingWidth="104.8564453125">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Text>
+      <Text fx:id="score_number" text="" fill="#5e230c" layoutX="357.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="34.21435546875">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
